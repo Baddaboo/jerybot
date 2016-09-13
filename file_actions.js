@@ -5,6 +5,7 @@ const Q  = require('q');
 
 const WATCH_USERS = 'notification_users.json';
 const ROOMS       = 'rooms.json';
+const QUOTES      = 'jeryquotes.json';
 
 
 var write_to_file = function (file, data) {
@@ -45,9 +46,19 @@ var add_room = function (room) {
   return write_to_file(ROOMS, rooms);
 };
 
+var add_quote = function (quote) {
+  let quotes = require(`./${QUOTES}`);
+  if (quotes.indexOf(quote) === -1) {
+    quotes.push(quote);
+  }
+  
+  return write_to_file(QUOTES, quotes);
+}
+
 module.exports = {
   add_user_watch: add_user_watch,
   add_room: add_room,
+  add_quote: add_quote,
   WATCH_USERS: WATCH_USERS,
   ROOMS: ROOMS,
 }
