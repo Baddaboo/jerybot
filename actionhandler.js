@@ -57,7 +57,7 @@ class ActionHandler {
       this.client.say(requester, 'There was a potential problem permanently joining ' + channelToJoin);    
     });
 
-  }
+  } 
 
 
   /**
