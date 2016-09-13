@@ -43,29 +43,19 @@ class MessageHandler {
     // Handle Commands
     // ============================
 
-    if (command === 'wafflebot') {
+    if (command === 'jerybot') {
       msg_parts.shift();
       this._handle_message(from, msg_parts.join(' '), room, true);
       return ;
     }
-
-    if (command === 'join' && msg_parts[1] && prefix) {
-      this.actions.join_room(from, msg_parts[1]);
+    
+    if (command === 'jerybot++') {
+      this.actions.acknowledgeplusplus(room);
       return ;
     }
-
-    if (command === 'fight' && msg_parts[1] === 'marley') {
-      this.actions.fight_marley(from, room);
-      return ;
-    }
-
-    if (command === 'notify' && prefix) {
-      this.actions.notifications(from, message, room);
-      return ;
-    }
-
-    if (command === 'meme' && msg_parts[1] === 'me') {
-      this.actions.make_meme(from, message, room);
+    
+    if (message[message.length - 1] === '?') {
+      this.actions.handlequestion(room);
       return ;
     }
 

@@ -73,6 +73,16 @@ class ActionHandler {
     }, 2320);
 
   }
+  
+  acknowledgeplusplus(requester) {
+    this.client.say(requester, ':}');
+  }
+  
+  handlequestion(requester) {
+    var response = stock_responses['_uselessquestion'];
+    let responseMessage = response.message.replace('{from}', requester);
+    this.client.say(requester, responseMessage);
+  }
 
 
   /**
@@ -84,7 +94,9 @@ class ActionHandler {
    */
   handle_other (requester, message, room) {
     var response = stock_responses[message];
-    if (!response) return ;
+    if (!response) {
+      response = stock_responses['_uselesscomment'];
+    }
 
     if (response.room_guard) {
       if (!this._room_guard(requester, room)) return ;
