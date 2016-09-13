@@ -85,8 +85,13 @@ class ActionHandler {
     this.client.say(requester, ':}');
   }
   
-  handlequestion(requester) {
-    var response = stock_responses['_uselessquestion'];
+  handlequestion(requester, message) {
+    var response;
+    if (message.indexOf('yes') === -1) {
+      response = stock_responses['_calmdown']
+    } else {
+      response = stock_responses['_uselessquestion']
+    }
     let responseMessage = response.message.replace('{from}', requester);
     this.client.say(requester, responseMessage);
   }
@@ -107,6 +112,12 @@ class ActionHandler {
 
     if (response.room_guard) {
       if (!this._room_guard(requester, room)) return ;
+    }
+    
+    if (message[message.length - 1] === '?') {
+      if (!room) { return ;}
+      this.handlequestion(room, message);
+      return ;
     }
 
     let responseMessage = response.message.replace('{from}', requester);

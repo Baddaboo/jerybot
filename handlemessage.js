@@ -49,11 +49,11 @@ class MessageHandler {
       return ;
     }
     
-    if (message[message.length - 1] === '?') {
-      if (!room) { return ;}
-      this.actions.handlequestion(room);
-      return ;
-    }
+//    if (message[message.length - 1] === '?') {
+//      if (!room) { return ;}
+//      this.actions.handlequestion(room);
+//      return ;
+//    }
     
     /* Do not touch this! Required for jerybot to update */
     if (message === 'jerybot pull') {
