@@ -87,7 +87,7 @@ class ActionHandler {
   
   handlequestion(requester, message) {
     var response;
-    if (message.indexOf('yes') === -1) {
+    if (message.indexOf('yes') !== -1) {
       response = stock_responses['_calmdown']
     } else {
       response = stock_responses['_uselessquestion']
