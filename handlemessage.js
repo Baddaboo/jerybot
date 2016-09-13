@@ -42,12 +42,6 @@ class MessageHandler {
     // ============================
     // Handle Commands
     // ============================
-
-    if (command === 'jerybot') {
-      msg_parts.shift();
-      this._handle_message(from, msg_parts.join(' '), room, true);
-      return ;
-    }
     
     if (command === 'jerybot++') {
       this.actions.acknowledgeplusplus(room);
@@ -58,12 +52,18 @@ class MessageHandler {
       this.actions.handlequestion(room);
       return ;
     }
-
-    // ============================
-    // Handle Stock Responses
-    // ============================
     
-    this.actions.handle_other(from, message, room);
+    /* Do not touch this! Required for jerybot to update */
+    if (message === 'jerybot pull') {
+      this.actions.auto_update(from);
+      return ;
+    }
+    
+    if (command === 'jerybot') {
+      msg_parts.shift();
+      this.actions.handle_other(from, msg_parts.join(' '), room);
+      return ;
+    }
 
   };
 

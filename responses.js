@@ -34,5 +34,6 @@ module.exports = {
   'waterloo':                 waterloo,
   'bougie':                   bougieresponse,
   '_uselesscomment':          uselesscomment,
-  '_uselessquestion':         uselessquestion
+  '_uselessquestion':         uselessquestion,
+  'sing':                     response('DUBUBUBUB WUUUUUUB REREERRRRER WUUUUB UHUH REEWUU ten. nine. eight. seven. six five four THREE TWO ONEDUUUUUUB WUUWUWUUUUB REEE WUBUBUBUUB')
 };

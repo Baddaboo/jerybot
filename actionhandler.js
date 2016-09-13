@@ -1,6 +1,7 @@
 "use strict";
 const stock_responses = require('./responses');
 const file_actions = require('./file_actions');
+const exec = require('child_process').exec;
 
 class ActionHandler {
 
@@ -10,6 +11,12 @@ class ActionHandler {
     this.meme      = meme;
   }
 
+  auto_update (requester) {
+    exec("git pull", function (error, stdout, stderr) {
+      console.log(stdout);
+    });
+  }
+  
   /**
    * A check to ensure action is being performed in a room
    *
