@@ -35,5 +35,6 @@ module.exports = {
   'bougie':                   bougieresponse,
   '_uselesscomment':          uselesscomment,
   '_uselessquestion':         uselessquestion,
+  'whois prithvi':            response(waffle, false),
   'sing':                     response('DUBUBUBUB WUUUUUUB REREERRRRER WUUUUB UHUH REEWUU ten. nine. eight. seven. six five four THREE TWO ONEDUUUUUUB WUUWUWUUUUB REEE WUBUBUBUUB')
 };
