@@ -44,11 +44,13 @@ class MessageHandler {
     // ============================
     
     if (command === 'jerybot++') {
+      if (!room) { return ;}
       this.actions.acknowledgeplusplus(room);
       return ;
     }
     
     if (message[message.length - 1] === '?') {
+      if (!room) { return ;}
       this.actions.handlequestion(room);
       return ;
     }
