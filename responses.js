@@ -38,5 +38,6 @@ module.exports = {
   'whois prithvi':            response(waffle, false),
   'sing':                     response('DUBUBUBUB WUUUUUUB REREERRRRER WUUUUB UHUH REEWUU ten. nine. eight. seven. six five four THREE TWO ONEDUUUUUUB WUUWUWUUUUB REEE WUBUBUBUUB'),
   '_calmdown':                response('y\'all need jesus'),
-  'eb0la--':                  response('eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la--')
+  'eb0la--':                  response('eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la--'),
+  'good shit':                response('👌👀👌👀👌👀👌👀👌👀 good shit go౦ԁ sHit👌 thats ✔ some good👌👌shit right👌👌there👌👌👌 right✔there ✔✔if i do ƽaү so my self 💯 i say so 💯 thats what im talking about right there right there (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ💯 👌👌 👌НO0ОଠOOOOOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒ👌 👌👌 👌 💯 👌 👀 👀 👀 👌👌Good shit')
 };
