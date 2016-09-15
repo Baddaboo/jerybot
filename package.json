@@ -10,7 +10,7 @@
     "q": "^1.4.1",
     "request": "^2.69.0",
     "unirest": "^0.4.2",
-    "fbgraph": "^1.0.0",
+    "fbgraph": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
