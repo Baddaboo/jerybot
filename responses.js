@@ -38,4 +38,5 @@ module.exports = {
   'whois prithvi':            response(waffle, false),
   'sing':                     response('DUBUBUBUB WUUUUUUB REREERRRRER WUUUUB UHUH REEWUU ten. nine. eight. seven. six five four THREE TWO ONEDUUUUUUB WUUWUWUUUUB REEE WUBUBUBUUB'),
   '_calmdown':                response('y\'all need jesus')
+  'eb0la--':                  response('eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la-- eb0la--')
 };
