@@ -61,6 +61,11 @@ class MessageHandler {
       return ;
     }
     
+    if (message === 'sup jerybot') {
+      this.actions.handle_other(from, 'sup', room);
+      return ;
+    }
+    
     if (command === 'jerybot') {
       msg_parts.shift();
       this.actions.handle_other(from, msg_parts.join(' '), room);

@@ -44,5 +44,6 @@ module.exports = {
   'bad shit':                 response('do NOT sign me the FUCK up 👎👀👎👀👎👀👎👀👎👀 bad shit ba̷̶ ԁ sHit 👎 thats ❌ some bad 👎👎shit right 👎👎 th 👎 ere 👎👎👎 right ❌ there ❌ ❌ if i do ƽaү so my selｆ🚫 i say so 🚫 thats not what im talking about right there right there (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ 🚫 👎 👎👎НO0ОଠＯOOＯOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒ 👎 👎👎 👎 🚫 👎 👀 👀 👀 👎👎Bad shit'),
   'chicken tenders':          response('All I 👀 want are 🐓chicken🐓 tenders🍗 Fresh from the hands✋ of the 🍗tendie vendors Chunks of 🐣chicken🐣 I will toss Into spicy🍛 mustard sauce'),
   'ayy lmao':                 response('👌👽👌👽👌👽 ayy lmao ayyy lmao good lmao👌 thats ✔ some ayyy👌👌lamayo right👌👌there👌👌👌 right✔there ✔✔if i do LMAO so my self 💯 i ayyy so 💯 thats what im probing about right there right there (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ💯 👌👌 👌AAAYYYYyyyyYYYYYyyyyyyʸʸʸʸʸʸʸʸ👌 👌👌 👌 💯 👌 👽👽👽👌👌ayy lmao'),
-  ':}':                       response(':}')
+  ':}':                       response(':}'),
+  'sup':                      response('http://imgur.com/a/IIv1S sup'),
 };
