@@ -6,5 +6,5 @@
         "username": "usernamehere",
         "password": "passwordhere"
     },
-    "mail_transport_string": "smtps://example%40gmail.com:passwordhere@smtp.gmail.com",
+    "mail_transport_string": "smtps://example%40gmail.com:passwordhere@smtp.gmail.com"
 }
