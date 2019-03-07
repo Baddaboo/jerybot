@@ -31,5 +31,5 @@ node wafflebot.js
 ## Contributing
 Go for it! Submit a pull request :)
 
-## Licence
+## License
 ![](http://i.imgur.com/UOkGhYi.gif)
